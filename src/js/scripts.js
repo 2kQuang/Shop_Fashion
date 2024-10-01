@@ -118,9 +118,9 @@
     var block = $(".header-common");
     var element = block.find(".promotion-header");
     var button = element.find(".button-promotion");
+    var blockPaddingTop = parseInt(block.css("padding-top"), 0.1 + "rem");
 
     $(window).on("load resize", function () {
-      var blockPaddingTop = parseInt(block.css("padding-top"), 10);
       var elementHeight = element.outerHeight() / 100;
       if (block.hasClass("is-ready")) {
         if (isMobile()) {
