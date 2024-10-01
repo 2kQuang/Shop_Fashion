@@ -7,6 +7,10 @@ header.header-common.is-ready
           img.image-common(src=imgCommonPC+"icn_close.svg" height="20" width="20" alt="Close" loading="eager")
   .wrapper
     .header-viewport
+      .button-hambuger.sm
+        span
+        span
+        span
       a.logo-header.trans(href=path+"/")
         img.image-common.md(src=imgCommonPC+"logo_header.svg" height="160" width="22" alt="SHOP.CO" loading="eager")
         img.image-common.sm(src=imgCommonSP+"logo_header.svg" height="126" width="18" alt="SHOP.CO" loading="eager")
@@ -15,13 +19,71 @@ header.header-common.is-ready
           .list-header-menu
             ul.list-wrapper
               li.item-list.has-child
-                a.link-list.trans(href="#") Shop
+                a.link-list.trans(href="#")
+                  span.text-link Shop
+                  span.icon-link-down
+                    img.image-common(src=imgCommonPC+"icn_arrow_down.svg" height="16" width="16" alt="Arrow Down" loading="eager")
+                .list-header-submenu
+                  ul.list-wrapper
+                    li.sub-list
+                      a.link-list.trans(href="#")
+                        span.text-link Shop item 1:
+                        span.icon-link-minus.sm
+                      .list-header-subsubmenu
+                        ul.list-wrapper
+                          li.subsub-list
+                            a.link-list.trans(href="#")
+                              span.text-link Shop sub 1
+                          li.subsub-list
+                            a.link-list.trans(href="#")
+                              span.text-link Shop sub 2
+                          li.subsub-list
+                            a.link-list.trans(href="#")
+                              span.text-link Shop sub 3
+                          li.subsub-list
+                            a.link-list.trans(href="#")
+                              span.text-link Shop sub 4
+                          li.subsub-list
+                            a.link-list.trans(href="#")
+                              span.text-link Shop sub 5
+                    li.sub-list
+                      a.link-list.trans(href="#")
+                        span.text-link Shop item 2:
+                      .list-header-subsubmenu
+                        ul.list-wrapper
+                          li.subsub-list
+                            a.link-list.trans(href="#")
+                              span.text-link Shop sub 1
+                          li.subsub-list
+                            a.link-list.trans(href="#")
+                              span.text-link Shop sub 2
+                          li.subsub-list
+                            a.link-list.trans(href="#")
+                              span.text-link Shop sub 3
+                          li.subsub-list
+                            a.link-list.trans(href="#")
+                              span.text-link Shop sub 4
+                          li.subsub-list
+                            a.link-list.trans(href="#")
+                              span.text-link Shop sub 5
+                    li.sub-list
+                      a.link-list.trans(href="#")
+                        span.text-link Shop item 3:
+                    li.sub-list
+                      a.link-list.trans(href="#")
+                        span.text-link Shop item 4:
+                    li.sub-list
+                      a.link-list.trans(href="#")
+                        span.text-link Shop item 5:
               li.item-list
-                a.link-list.trans(href="#") On Sale
+                a.link-list.trans(href="#")
+                  span.text-link On Sale
               li.item-list
-                a.link-list.trans(href="#") New Arrivals
+                a.link-list.trans(href="#")
+                  span.text-link New Arrivals
               li.item-list
-                a.link-list.trans(href="#") Brands
+                a.link-list.trans(href="#")
+                  span.text-link Brands
       .form-header-search
         form.form-wrapper(action="#")
           .button-search
@@ -34,7 +96,7 @@ header.header-common.is-ready
         ul.list-wrapper
           li.item-list
             a.icon-list.trans(href="#")
-              img.image-common.md(src=imgCommonPC+"icn_cart.svg" height="24" width="24" alt="Cart" loading="eager")
+              img.image-common(src=imgCommonPC+"icn_cart.svg" height="24" width="24" alt="Cart" loading="eager")
           li.item-list
             a.icon-list.trans(href="#")
-              img.image-common.md(src=imgCommonPC+"icn_user.svg" height="24" width="24" alt="User" loading="eager")
+              img.image-common(src=imgCommonPC+"icn_user.svg" height="24" width="24" alt="User" loading="eager")

@@ -82,10 +82,12 @@ body {
 
 .container {
   @include desktop {
+    max-width: unset;
     min-width: $viewport-width;
   }
 
   @include mobile {
+    max-width: unset;
     min-width: 320px;
   }
 }
@@ -99,8 +101,8 @@ body {
   }
 
   @include mobile {
-    padding-right: 0.2rem;
-    padding-left: 0.2rem;
+    padding-right: 0.16rem;
+    padding-left: 0.16rem;
   }
 }
 

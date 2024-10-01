@@ -118,12 +118,18 @@
     var block = $(".header-common");
     var element = block.find(".promotion-header");
     var button = element.find(".button-promotion");
-    var blockPaddingTop = parseInt(block.css("padding-top"), 10);
-    var elementHeight = element.outerHeight();
 
-    if (block.hasClass("is-ready")) {
-      block.css("padding-top", elementHeight + 24);
-    }
+    $(window).on("load resize", function () {
+      var blockPaddingTop = parseInt(block.css("padding-top"), 10);
+      var elementHeight = element.outerHeight() / 100;
+      if (block.hasClass("is-ready")) {
+        if (isMobile()) {
+          block.css("padding-top", (elementHeight + 0.2) + "rem");
+        } else {
+          block.css("padding-top", (elementHeight + 0.16) + "rem");
+        }
+      }
+    });
 
     button.click(function () {
       if (block.hasClass("is-ready")) {
