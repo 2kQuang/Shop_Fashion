@@ -1,0 +1,35 @@
+{
+  "extends": [
+    "stylelint-config-standard-scss",
+    "stylelint-config-property-sort-order-smacss"
+  ],
+  "rules": {
+    "alpha-value-notation": null,
+    "block-no-empty": null,
+    "color-function-notation": null,
+    "color-hex-length": "short",
+    "declaration-block-no-duplicate-properties": true,
+    "declaration-block-no-shorthand-property-overrides": true,
+    "function-url-quotes": "always",
+    "length-zero-no-unit": true,
+    "max-nesting-depth": [3, { "ignore": ["blockless-at-rules", "pseudo-classes"], "ignoreRules": ["/.*::.*/"] }],
+    "no-descending-specificity": true,
+    "no-duplicate-selectors": null,
+    "no-empty-source": null,
+    "number-max-precision": null,
+    "property-no-vendor-prefix": null,
+    "selector-attribute-quotes": null,
+    "selector-max-id": 0,
+    "selector-no-vendor-prefix": null,
+    "selector-pseudo-class-no-unknown": null,
+    "selector-pseudo-element-no-unknown": null,
+    "shorthand-property-no-redundant-values": true,
+    "value-no-vendor-prefix": null,
+    "declaration-block-no-redundant-longhand-properties": [true, {
+      "ignoreShorthands": ["inset"]
+    }],
+    "media-feature-range-notation": null,
+    "declaration-no-important": true,
+    "rule-empty-line-before": null
+  }
+}

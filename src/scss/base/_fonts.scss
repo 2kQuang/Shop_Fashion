@@ -1,0 +1,21 @@
+@charset "utf-8";
+
+@font-face {
+  font-family: "IntegralCFRegular";
+  src:
+    url("../../fonts/IntegralCFRegular.woff") format("woff2"),
+    url("../../fonts/IntegralCFRegular.woff2") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "IntegralCFBold";
+  src:
+    url("../../fonts/IntegralCFBold.woff") format("woff2"),
+    url("../../fonts/IntegralCFBold.woff2") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
