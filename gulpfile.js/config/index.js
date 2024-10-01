@@ -1,6 +1,6 @@
 const baseConfig = {
   sourceDir: './src',
-  distributeDir: './dist',
+  distributeDir: './docs',
   ignore: ['!**/.DS_Store', '!**/* copy.*']
 };
 
