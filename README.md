@@ -20,7 +20,7 @@ npm install
 
 # Build files and start development mode
 
-Build files and make them ready for your production environment. You will get the files in the `dist` folder.
+Build files and make them ready for your production environment. You will get the files in the `docs` folder.
 Beside, it will automatically launch your default web browser to display the current coding, and watch for changes in the "src" folder
 Minify images and Lint check will run also.
 
@@ -30,7 +30,7 @@ npm run dev
 
 # Build files
 
-Build files and make them ready for your production environment. You will get the files in the `dist` folder
+Build files and make them ready for your production environment. You will get the files in the `docs` folder
 Minify images and Lint check will run also.
 
 ```sh
