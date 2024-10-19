@@ -1,0 +1,33 @@
+{
+  "name": "fc-gulp",
+  "version": "2.0.0",
+  "description": "",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development gulp",
+    "build": "cross-env NODE_ENV=production gulp",
+    "lint": "cross-env NODE_ENV=production gulp lint",
+    "lint:fix": "cross-env NODE_ENV=production gulp lintFix"
+  },
+  "author": "FASTCODING Thanh",
+  "license": "UNLICENSED",
+  "private": true,
+  "devDependencies": {
+    "autoprefixer": "^10.4.14",
+    "cross-env": "^7.0.3",
+    "del": "^6.0.0",
+    "gulp": "^4.0.2",
+    "gulp-postcss": "^9.0.1",
+    "gulp-prettier": "^4.0.0",
+    "gulp-replace": "^1.1.4",
+    "gulp-sass": "^5.1.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "lint-staged": "^15.2.0",
+    "postcss-reporter": "^7.0.5",
+    "postcss-scss": "^4.0.9",
+    "sass": "^1.58.3",
+    "stylelint": "^16.0.2",
+    "stylelint-config-property-sort-order-smacss": "^10.0.0",
+    "stylelint-config-standard-scss": "^12.0.0",
+    "yargs": "^17.7.2"
+  }
+}
