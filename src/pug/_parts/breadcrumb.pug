@@ -1,9 +1,0 @@
-mixin breadcrumbCommon(data)
-  .breadcrumb-common&attributes(attributes)
-    ol.breadcrumb-wrapper
-      each item in data
-        li.breadcrumb-item
-          if(item.href)
-            a.item-wrapper.trans(href=item.href)!=item.label
-          else
-            span.item-wrapper!=item.label
