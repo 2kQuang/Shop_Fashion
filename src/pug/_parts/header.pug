@@ -1,4 +1,4 @@
-header.header-common.is-ready
+header.header-common.is-ready.promotion-ready
   .promotion-header
     .wrapper
       .information-promotion
@@ -7,7 +7,7 @@ header.header-common.is-ready
           img.image-common(src=imgCommonPC+"icn_close.svg" height="20" width="20" alt="Close" loading="eager")
   .wrapper
     .header-viewport
-      .button-hamburger.sm
+      .button-hamburger.sm.js-button-menu
         .button-wrapper
           span
           span
@@ -15,7 +15,7 @@ header.header-common.is-ready
       a.logo-header.trans(href=path+"/")
         img.image-common.md(src=imgCommonPC+"logo_header.svg" height="160" width="22" alt="SHOP.CO" loading="eager")
         img.image-common.sm(src=imgCommonSP+"logo_header.svg" height="126" width="18" alt="SHOP.CO" loading="eager")
-      nav.navigation-header
+      nav.navigation-header.js-navigation
         .navigation-wrapper
           .list-header-menu
             ul.list-wrapper
@@ -73,6 +73,7 @@ header.header-common.is-ready
                 a.link-list.trans(href="#") New Arrivals
               li.item-list
                 a.link-list.trans(href="#") Brands
+        .mask-header-default
       .form-header-search
         form.form-wrapper(action="#")
           .button-search

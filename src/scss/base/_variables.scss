@@ -26,3 +26,17 @@ $color-grey-secondary: #f2f0f1;
     --color-grey-primary: #f0f0f0;
     --color-grey-secondary: #f2f0f1;
 }
+
+*::-webkit-scrollbar{
+    width: .05rem;
+    background-color: var(--color-default);
+    border-radius: .5rem;
+}
+
+*::-webkit-scrollbar-thumb{
+    background-color: var(--color-grey-primary);
+    border-radius: .5rem;
+    &:hover{
+        background-color: var(--color-white);
+    }
+}
